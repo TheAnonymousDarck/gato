@@ -3,7 +3,19 @@ guid: 769e63a6f797a1449bcfbe03cad10718
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - circle: {instanceID: 0}
+  - cross: {instanceID: 0}
+  - win1: {instanceID: 0}
+  - win2: {instanceID: 0}
+  - win3: {instanceID: 0}
+  - win4: {instanceID: 0}
+  - win5: {instanceID: 0}
+  - win6: {instanceID: 0}
+  - win7: {instanceID: 0}
+  - win8: {instanceID: 0}
+  - sonido: {instanceID: 0}
+  - clip: {fileID: 8300000, guid: 365dfebe35ddee74db1addddaa166725, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

@@ -7,6 +7,8 @@ public class cat: MonoBehaviour
     public Sprite circle;
     public Sprite cross;
     public GameObject win1, win2, win3, win4, win5, win6, win7, win8;
+    public AudioSource sonido;
+    public AudioClip clip;
 
 
     public static int counter = 0;
@@ -27,6 +29,9 @@ public class cat: MonoBehaviour
     }
 
     void OnMouseDown(){
+
+        sonido.PlayOneShot(clip);
+
         Debug.Log(this.name);
 
         if(counter< 9){
